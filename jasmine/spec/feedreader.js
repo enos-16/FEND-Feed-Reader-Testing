@@ -27,14 +27,14 @@ $(
 				expect(allFeeds.length).not.toBe(0);
 			});
 
-			it("all feeds have a url defined and not an empty string", function() {
+			it("have a url defined and not an empty string", function() {
 				allFeeds.forEach(feed => {
 					expect(feed.url).toBeDefined();
 					expect(feed.url.length).not.toBe(0);
 				});
 			});
 
-			it("all feeds have a name and not an empty string", function() {
+			it("have a name and not an empty string", function() {
 				allFeeds.forEach(feed => {
 					expect(feed.name).toBeDefined();
 					expect(feed.name.length).not.toBe(0);
@@ -73,6 +73,7 @@ $(
 				loadFeed(0, function() {
 					feedOne = $(".feed").html();
 					done();
+					//Second Feed loaded
 					loadFeed(1, function() {
 						feedTwo = $(".feed").html();
 						done();
