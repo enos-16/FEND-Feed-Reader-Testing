@@ -2,7 +2,7 @@
 
 In this project you are given a web-based application that reads RSS feeds. This pulls from a few feeds using Google Feed Reader API and creates a template using Handlebar's compile function after the asynchronous call.
 
-##Running the Application
+## Running the Application
 
 You can run this application by downloading or cloning this repository. Open the index.html file into your preferred browser and you'll see the Application as well as the Jasmine tests running at the bottom. All the test are written in the feedreader.js file located within jasmine/spec/ directory.
 
