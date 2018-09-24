@@ -72,7 +72,6 @@ $(
 				//First Feed loaded
 				loadFeed(0, function() {
 					feedOne = $(".feed").html();
-					done();
 					//Second Feed loaded
 					loadFeed(1, function() {
 						feedTwo = $(".feed").html();
